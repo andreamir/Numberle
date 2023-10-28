@@ -1,0 +1,123 @@
+body {
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin: 0px;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 4px;
+}
+
+.numberKey {
+  /* display: flex;
+  justify-items: center; */
+  width: 32px;
+  /* background-color: #a8abac; */
+  background-color: #d3d6da;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  align-content: center;
+  justify-content: center;
+}
+
+.tile {
+  width: 62px;
+  height: 62px;
+  /* background-color: coral; */
+  margin: 2px;
+  margin-top: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  align-content: center;
+  justify-content: center;
+  font-size: 30px;
+  border: 1px solid #878a8c;
+}
+
+#container {
+  /* background-color: aliceblue; */
+  height: 860px;
+  width: 500px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+  height: 50px;
+  width: 100;
+  border-bottom: 2px solid #d3d6da;
+}
+
+
+#keyboard {
+  display: flex;
+  justify-content: space-around;
+  height: 58px;
+  width: 100%;
+  /* padding: 5px; */
+}
+#enter, #backspace {
+  width: 46px;
+  background-color: #d3d6da;
+  margin: 2px;
+  border-radius: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  align-content: center;
+  justify-content: center;
+}
+
+#enter {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+#backspace {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#boardContainer {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#board {
+  height: 400px;
+  width: 330px;
+  /* background-color: blue; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+justify-content: center;
+  align-content: center; 
+}
+.gameRow{
+  display: flex;
+  width: 100%;
+  height: 62.5px;
+
+} 
