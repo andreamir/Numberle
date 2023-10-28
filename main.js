@@ -110,8 +110,8 @@ function getBoard() {
     for (let j = 0; j < 5; j++) {
       const tile = document.createElement('div');
       tile.classList.add('tile');
-      tile.classList.add('tile-'+j)
-      tile.innerText = `${j}`;
+      tile.classList.add('tile-'+j);
+      // tile.innerText = `${j}`;
       gameRow.appendChild(tile);
     }
   }
